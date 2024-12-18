@@ -18,14 +18,14 @@ jobs:
         cache: 'npm'   
 
     - name: Install dependencies
-      run: echo "npm ci"
+      run: npm ci
 
     - name: Linting
-      run: echo "npm run lint"
+      run: npm run lint
 
     - name: Typechecking
-      run: echo "npm run typecheck" 
+      run: npm run typecheck
 
     - name: Run tests
-      run: echo "npm run test:ci"
+      run: npm run test:ci
     

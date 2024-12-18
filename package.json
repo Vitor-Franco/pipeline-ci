@@ -1,0 +1,13 @@
+{
+	"name": "pipeline-ci",
+	"version": "1.0.0",
+	"scripts": {
+		"lint": "echo 'Running lint'",
+		"typecheck": "echo 'Running typecheck'",
+		"test:ci": "echo 'Running test:ci'"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
